@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ArtistsPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80808080"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/backBtn"
+            android:src="@drawable/back_button"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artists"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageUrlInp"
+            android:inputType="textUri"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:hint="Enter Image URL"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bandNameInp"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:hint="Enter Band Name"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateInp"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:hint="Enter Date"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/placeInp"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:hint="Enter Place"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:id="@+id/vipPriceInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:padding="15dp"
+            android:hint="VIP Price"
+            android:inputType="number"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:id="@+id/upperBoxPriceInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:padding="15dp"
+            android:hint="Upper Box Price"
+            android:inputType="number"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:id="@+id/lowerBoxPriceInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:padding="15dp"
+            android:hint="Lower Box Price"
+            android:inputType="number"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:id="@+id/regularPriceInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#dddddddd"
+            android:padding="15dp"
+            android:hint="Regular Price"
+            android:inputType="number"
+            android:layout_marginVertical="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addBtn"
+                android:backgroundTint="@color/white"
+                android:text="Add"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

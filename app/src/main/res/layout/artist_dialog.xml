@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editImgUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"
+            android:inputType="textUri"
+            android:hint="Edit Image URL"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editBandName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"
+            android:hint="Edit Band Name"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"
+            android:hint="Edit Date"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:layout_marginVertical="10dp"
+            android:hint="Edit Place"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editVipPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:hint="Edit VIP Price"
+            android:inputType="number"
+            android:layout_marginVertical="5dp"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editUpperBoxPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:hint="Edit Upper Box Price"
+            android:inputType="number"
+            android:layout_marginVertical="5dp"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editLowerBoxPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:hint="Edit Lower Box Price"
+            android:inputType="number"
+            android:layout_marginVertical="5dp"
+            android:textColorHint="#999"/>
+
+        <EditText
+            android:id="@+id/editRegularPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_input"
+            android:backgroundTint="#ddd"
+            android:padding="15dp"
+            android:hint="Edit Regular Price"
+            android:inputType="number"
+            android:layout_marginVertical="5dp"
+            android:textColorHint="#999"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ddd"
+                android:textColor="@color/black"
+                android:text="Update"
+                android:layout_margin="7dp" />
+
+            <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ddd"
+                android:textColor="@color/black"
+                android:text="Delete"
+                android:layout_margin="7dp"/>
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ddd"
+                android:textColor="@color/black"
+                android:text="Cancel"
+                android:layout_margin="7dp" />
+        </LinearLayout>
+
+</LinearLayout>
