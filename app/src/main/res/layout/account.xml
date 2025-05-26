@@ -12,7 +12,18 @@
         android:background="#80808080"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        android:paddingVertical="100dp">
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"/>
 
         <ImageView
             android:id="@+id/accountIcon"

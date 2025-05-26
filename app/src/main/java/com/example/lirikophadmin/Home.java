@@ -38,7 +38,6 @@ public class Home extends Fragment {
         ListView recentArtistsList = view.findViewById(R.id.recentArtists);
         ListView recentTixList = view.findViewById(R.id.recentTix);  // new ListView for recent bookings
 
-        // Load recent artists
         ArtistsService artistsService = new ArtistsService();
         artistsService.getArtist(new ArtistsService.OnArtistsLoadListener() {
             @Override

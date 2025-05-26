@@ -10,93 +10,101 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
-            android:layout_marginVertical="10dp"
+            android:layout_marginVertical="5dp"
             android:inputType="textUri"
             android:hint="Edit Image URL"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editBandName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
-            android:layout_marginVertical="10dp"
+            android:layout_marginVertical="5dp"
             android:hint="Edit Band Name"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
-            android:layout_marginVertical="10dp"
+            android:layout_marginVertical="5dp"
             android:hint="Edit Date"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editPlace"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
-            android:layout_marginVertical="10dp"
+            android:layout_marginVertical="5dp"
             android:hint="Edit Place"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editVipPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
             android:hint="Edit VIP Price"
             android:inputType="number"
             android:layout_marginVertical="5dp"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editUpperBoxPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
             android:hint="Edit Upper Box Price"
             android:inputType="number"
             android:layout_marginVertical="5dp"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editLowerBoxPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
             android:hint="Edit Lower Box Price"
             android:inputType="number"
             android:layout_marginVertical="5dp"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/editRegularPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_input"
-            android:backgroundTint="#ddd"
+            android:backgroundTint="#dddd"
             android:padding="15dp"
             android:hint="Edit Regular Price"
             android:inputType="number"
             android:layout_marginVertical="5dp"
-            android:textColorHint="#999"/>
+            android:textColorHint="#5000"
+            android:textColor="@color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
